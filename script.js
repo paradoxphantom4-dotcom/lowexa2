@@ -6,8 +6,8 @@
 // ── SHOPIFY CHECKOUT CONFIG ──────────────────────────────────────────────────
 // ⚠️  Replace these placeholder values with your real Shopify details before launch.
 const CONFIG = {
-  shopifyDomain: 'your-store.myshopify.com',   // e.g. lowexa-store.myshopify.com
-  variantId:     'YOUR_VARIANT_ID',             // numeric variant ID from Shopify admin
+  shopifyDomain: 'footyarchive.myshopify.com',
+  variantId:     '63850645094749',
   utmSource:     'lowexa-website',
   utmMedium:     'landing-page',
   utmCampaign:   'bundle-v1'
