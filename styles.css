@@ -266,40 +266,27 @@ img {
   letter-spacing: 0.01em;
 }
 
-/* Book mockups in hero */
+/* Bundle photo in hero */
 .hero-books {
   display: flex;
-  align-items: flex-end;
   justify-content: center;
-  gap: var(--space-m);
-  position: relative;
+  align-items: center;
 }
 
-.hero-book {
-  border-radius: var(--border-radius-s);
-  box-shadow: 0 32px 80px rgba(26, 77, 62, 0.2), 0 8px 24px rgba(0, 0, 0, 0.1);
-  max-width: 100%;
-  transition: transform 0.4s ease;
+.hero-bundle-img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: var(--border-radius-m);
+  box-shadow: 0 32px 80px rgba(26, 77, 62, 0.18), 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-.hero-book--main {
-  width: 52%;
-  z-index: 2;
-  transform: rotate(-2deg);
-}
-
-.hero-book--secondary {
-  width: 44%;
-  z-index: 1;
-  transform: rotate(3deg) translateY(16px);
-}
-
-.hero-books:hover .hero-book--main {
-  transform: rotate(-1deg) translateY(-4px);
-}
-
-.hero-books:hover .hero-book--secondary {
-  transform: rotate(2deg) translateY(12px);
+/* Bundle photo in checkout */
+.checkout-bundle-img {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  border-radius: var(--border-radius-m);
+  box-shadow: 0 16px 48px rgba(26, 77, 62, 0.15), 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 @media (max-width: 899px) {
